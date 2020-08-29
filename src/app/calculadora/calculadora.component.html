@@ -1,0 +1,35 @@
+
+<h1>Calculadora</h1>
+
+<div class="container">
+
+    <ion-item>
+        <ion-label>primer numero:</ion-label>
+        <ion-input type="number" class="form-control" id="num1" ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>segundo numero:</ion-label>
+        <ion-input type="number" class="form-control" id="num2" ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>
+          <input type="radio" class="form-check-input" name="Operacion" value="sumar" checked>sumar
+        </ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>
+          <input type="radio" class="form-check-input" name="Operacion" value="restar">restar
+        </ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>
+          <input type="radio" class="form-check-input" name="Operacion" value="multiplicar">multiplicar
+        </ion-label>
+      </ion-item>
+      <br>
+    <button class="btn btn-success" onclick="getInputValue()">Realizar operacion</button>
+      <br>
+    <p id="demo"></p>
+</div>
